@@ -6,6 +6,10 @@ import {
     Route,
     Redirect,
 } from 'react-router-dom';
+import { ConnectedRouter } from 'connected-react-router';
+
+// components
+import Home from '../../containers/Home/Home';
 
 const App = (props) => {
     const {
@@ -14,6 +18,13 @@ const App = (props) => {
     } = props;
     return (
         <>
+            <ConnectedRouter history={history}>
+                <IntlProvider locale={locale}>
+                    <Switch>
+                        <Route path="/home-page" exact component={Home} />
+                    </Switch>
+                </IntlProvider>
+            </ConnectedRouter>
         </>
     );
 };

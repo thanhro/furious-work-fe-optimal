@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { makeStyles } from '@material-ui/core/styles';
-import Contaner from '@material-ui/core/Container';
+import Container from '@material-ui/core/Container';
 import GridContainer from '../Grid/GridContainer';
 
 import styles from '../../assets/jss/components/wrapperContainerStyle';
@@ -19,11 +19,11 @@ const WrapperContainer = (props) => {
     } = props;
     return (
         <div className={`${classes.container} ${className}`}>
-            <Contaner maxWidth={size}>
+            <Container maxWidth={size}>
                 <GridContainer {...rest}>
                     {children}
                 </GridContainer>
-            </Contaner>
+            </Container>
         </div>
     );
 };
