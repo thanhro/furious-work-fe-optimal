@@ -14,8 +14,14 @@ import {
 
 const userHeaderStyle = (theme) => ({
     appBar: {
-        top: '0',
-        position: 'sticky',
+        // fix cung header
+        top: '0px',
+        left: '0px',
+        right: '0px',
+        position: 'fixed !important',
+        // fix cung header
+        // top: '0',
+        // position: 'sticky',
         display: 'flex',
         border: '0',
         // padding: '24px 0',
@@ -192,6 +198,39 @@ const userHeaderStyle = (theme) => ({
             paddingLeft: '0',
             paddingRight: '0',
         },
+    },
+    footer: {
+        marginTop: '100px',
+        bottom: '0',
+        display: 'flex',
+        border: '0',
+        padding: '24px 0',
+        color: '#555',
+        width: '100%',
+        // backgroundColor: '#fff',
+        backgroundColor: '#f2f2fe',
+        boxShadow: '0 -5px 18px -5px rgba(85, 114, 187, 0.4);',
+        transition: 'all 150ms ease 0s',
+        alignItems: 'center',
+        flexFlow: 'column',
+        justifyContent: 'flex-start',
+        zIndex: '10',
+        borderBottom: '1px solid #ddd',
+    },
+    footerItems: {
+        display: 'flex',
+        justifyContent: 'center',
+        marginBottom: '10px',
+    },
+    logo_brand: {
+        width: '40px',
+        height: '40px',
+        display: 'inline-block',
+        padding: '9px 10px',
+        border: '1px solid #00ff08',
+        borderRadius: '30px !important',
+        margin: '0 5px',
+        textDecoration: 'none',
     },
 });
 

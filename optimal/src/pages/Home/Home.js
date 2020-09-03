@@ -3,15 +3,16 @@ import PropTypes from 'prop-types';
 import _ from 'lodash';
 import classNames from 'classnames';
 import AppBar from '@material-ui/core/AppBar';
+import Box from '@material-ui/core/Box';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Favorite from '@material-ui/icons/Favorite';
 import Typography from '../../components/Typography/CustomTypography';
 import CustomButton from '../../components/Button/CustomButton';
 import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import WrapperContainer from '../../components/Container/WrapperContainer';
 import styles from '../../assets/jss/components/userHeaderStyle';
+import { GitHubIcon, LanguageIcon, FacebookIcon, YoutubeIcon, InstagramIcon, FavoriteIcon } from '../../components/Icons/Icons';
 
 const useStyles = makeStyles(styles);
 
@@ -70,28 +71,673 @@ const Home = (props) => {
                     </GridItem>
                 </WrapperContainer>
             </AppBar>
-
-            <footer>
-                <WrapperContainer style={{ alignItems: 'center' }}>
-                    <GridItem>
-                        Logo
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <Box>
+                ahihi body
+            </Box>
+            <footer className={classes.footer}>
+                <WrapperContainer>
+                    <GridItem md={12} className={classes.footerItems}>
+                        <img src="/resources/working-amico.png" alt="logo" className={classes.logo_header} />
                     </GridItem>
-                    <GridItem>
-                        List Logo
+                    <GridItem md={12} className={classes.footerItems}>
+                        <a href="/" className={classes.logo_brand}>
+                            <GitHubIcon size={20} color="#00ff08" />
+                        </a>
+                        <a href="/" className={classes.logo_brand}>
+                            <LanguageIcon size={20} color="#00ff08" />
+                        </a>
+                        <a href="/" className={classes.logo_brand}>
+                            <FacebookIcon size={20} color="#00ff08" />
+                        </a>
+                        <a href="/" className={classes.logo_brand}>
+                            <InstagramIcon size={20} color="#00ff08" />
+                        </a>
+                        <a href="/" className={classes.logo_brand}>
+                            <YoutubeIcon size={20} color="#00ff08" />
+                        </a>
                     </GridItem>
-                    <GridItem>
-                        <div className={classes.right}>
-                            &copy; {1900 + new Date().getYear()} , made with{' '}
-                            <Favorite style={{ width: '18px', height: '18px', position: 'relavtive', top: '3px' }} color="secondary" /> by{' '}
-                            <a
-                                href="https://www.creative-tim.com?ref=njsmk-footer"
-                                // className={aClasses}
-                                target="blank"
-                            >
-                                Creative Tim
-                            </a>{' '}
-                            for a better web.
-                        </div>
+                    <GridItem md={12} className={classes.footerItems}>
+                        <Typography variant="h6">
+                            <div className={classes.right}>
+                                &copy; {1900 + new Date().getYear()} , made with{' '}
+                                <FavoriteIcon style={{ position: 'relavtive', top: '3px' }} size={15} color="red" /> by{' '}
+                                <a
+                                    href="https://www.creative-tim.com?ref=njsmk-footer"
+                                    // className={aClasses}
+                                    target="blank"
+                                >
+                                    LTV Team
+                                </a>{' '}
+                                for a better web.😍
+                            </div>
+                        </Typography>
                     </GridItem>
                 </WrapperContainer>
             </footer>
