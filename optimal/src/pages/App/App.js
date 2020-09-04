@@ -21,7 +21,18 @@ const App = (props) => {
             <ConnectedRouter history={history}>
                 <IntlProvider locale={locale}>
                     <Switch>
-                        <Route path="/home-page" exact component={Home} />
+                        <Redirect exact from="/" to="/home-page" />
+                        <Redirect exact from="/home" to="/home-page" />
+
+                        <Route exact path={['/home-page']}>
+                            <Switch>
+                                <Route
+                                    path="/home-page"
+                                    exact
+                                    component={Home}
+                                />
+                            </Switch>
+                        </Route>
                     </Switch>
                 </IntlProvider>
             </ConnectedRouter>
